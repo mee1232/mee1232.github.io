@@ -436,3 +436,101 @@ img {
     margin: 2.5rem 0;
   }
 }
+/*Services*/
+.services {
+  background: rgb(13, 14, 14);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 10rem 0;
+}
+.services h1 {
+  background: #fabad9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #03fc39,
+    #ee09cf
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff0040,
+    #119dfa
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
+}
+.ser_wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.ser_card {
+  margin: 10px;
+  height: 425px;
+  width: 300px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  background-image: linear-gradient(to right, #ff0040, #119dfa);
+  transition: 0.7s ease-in;
+}
+.ser_card:nth-child(2) {
+  background: #5d4157; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a8caba,
+    #5d4157
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a8caba,
+    #5d4157
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.ser_card:nth-child(3) {
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.ser_card:nth-child(4) {
+  background: #360033; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0b8793,
+    #360033
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0b8793,
+    #360033
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.ser_card h2 {
+  text-align: center;
+}
+.ser_card p {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 20px;
+}
+.ser_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

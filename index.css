@@ -170,6 +170,15 @@
     display: block;
     cursor: pointer;
   }
+  #menu .bar:nth-child(1) {
+    background: chartreuse;
+  }
+  #menu .bar:nth-child(2) {
+    background: rgb(236, 22, 22);
+  }
+  #menu .bar:nth-child(3) {
+    background: rgb(255, 21, 138);
+  }
   #menu.is-active .bar:nth-child(2) {
     /*after is-active that gap is important*/
 

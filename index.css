@@ -810,7 +810,7 @@ button.active {
   .card {
     transform-style: preserve-3d;
     min-height: 20%;
-    width: 19rem;
+    width: 350px;
     border-radius: 10px;
     position: absolute;
     left: 35%;

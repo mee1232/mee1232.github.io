@@ -794,7 +794,7 @@ button.active {
   font-weight: bolder;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 750px) {
   .container {
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
@@ -885,10 +885,5 @@ button.active {
     cursor: pointer;
     border-radius: 30px;
     font-weight: bolder;
-  }
-  .dd {
-    position: absolute;
-    width: 10px;
-    height: 150px;
   }
 }

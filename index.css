@@ -712,7 +712,7 @@ img {
 .card {
   transform-style: preserve-3d;
   min-height: 40vh;
-  width: 25rem;
+  width: 250px;
   border-radius: 10px;
   position: absolute;
   left: 60%;

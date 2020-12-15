@@ -681,7 +681,7 @@ img {
   color: rgb(58, 255, 222);
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 440px) {
   .f_link-items a {
     margin-bottom: 1.5rem;
     text-decoration: none;
